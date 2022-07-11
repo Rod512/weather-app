@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300;500&family=Kdam+Thmor+Pro&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin: 0;
+    background-color: #222;
+    background-image: url(/tree-832079__480.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 120%;
+}
+
+.card{
+    background: #000000d0;
+    color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1rem;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    height: 2rem;
+    width: 2rem;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+}
+
+input.search-bar{
+    border: 1px solid white;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 18px;
+    background: none;
+    color: white;
+    width: 80%;
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
